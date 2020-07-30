@@ -53,4 +53,112 @@ body, p {
      font-size: 20px;
      line-height: 50%;
      top: 74px;
+
  }
+ .menu {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .menu a {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 40%;
+     color: rgba(48, 48, 48, 0.5);
+     text-decoration: none;
+     margin-right: 25px;
+ }
+ .icon{
+     text-decoration: none;
+     font-size: 20px;
+     line-height: 50%;
+     color: white;
+     display: flex;
+ }
+ .icon span {
+     margin: auto;
+ }
+ .header-center {
+     padding: 15px 0;
+ }
+  hr {
+     border: none;
+     background-color: #FF4545;
+     height: 3px;
+
+ }
+  .menu2 a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 50%;
+      border: 2px solid #FF4545;
+      color: #FF4545;
+      padding: 13px 13px ;
+      font-family: 'Russo One', sans-serif;
+      margin-right: 40px;
+  }
+  .menu2 a.price-link {
+      background: #FF4545;
+      color: white;
+
+  }
+  .header-bottom {
+      margin-top: 18px;
+      height: 50px;
+      padding-bottom: 15px;
+  }
+
+  .header-bottom-wrapper {
+      display: flex;
+  }
+  .header-phone a {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 70%;
+      color: rgba(48, 48, 48, 0.5);
+      text-decoration: none;
+  }
+   .header-basket {
+       margin-left: 54px;
+   }
+header {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+}
+.banner {
+    width: 1170px;
+    height: 502px;
+    background-image: url("Group 6.png");
+    margin: 0 auto;
+}
+.banner p {
+    width: 632px;
+    height: 184.74px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 100%;
+    color: white;
+    padding-top: 60px;
+    padding-left: 68px;
+}
+.banner a {
+    width: 195px;
+    height: 70.28px;
+    background: #FF4545;
+    text-decoration: none;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50%;
+    color: #fff;
+}
+
+
